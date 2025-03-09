@@ -52,7 +52,6 @@ The goal is to evaluate these models for accuracy, efficiency, and suitability f
 - **Teacher-Student Model**: Distillation loss (temperature-controlled soft labels) + cross-entropy, trained to mimic teacher.
 
 ### Results
-*(Note: Replace placeholders with your actual results from the notebooks.)*
 - **Base Model**: Achieved 91.19% test accuracy, with high AUC-ROC for pneumonia detection.
 - **Transfer Model**: Achieved 87.50% test accuracy, benefiting from pre-trained features.
 - **Teacher-Student Model**: Achieved 81.09% test accuracy, with reduced complexity (fewer parameters) and focus on recall for medical use.
